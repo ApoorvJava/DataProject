@@ -1,0 +1,379 @@
+WARNING:django.request:Not Found: /
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\mysite\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+ERROR:django.request:Internal Server Error: /api/Weather/"USC00110072"
+Traceback (most recent call last):
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py", line 26, in get
+    response = {'Success': self.response}
+AttributeError: 'WeatherStation' object has no attribute 'response'
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /api/Weather/"USC00110072"
+Traceback (most recent call last):
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py", line 28, in get
+    response = {'Success': self.response}
+AttributeError: 'WeatherStation' object has no attribute 'response'
+ERROR:django.request:Internal Server Error: /api/Weather/"USC00110072"
+Traceback (most recent call last):
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py", line 28, in get
+    response = {'Success': self.response}
+AttributeError: 'WeatherStation' object has no attribute 'response'
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+WARNING:django.request:Not Found: /api/Weather/"USC00110072"/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+WARNING:django.request:Not Found: /
+WARNING:django.request:Not Found: /
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+WARNING:django.request:Not Found: /
+WARNING:django.request:Not Found: /
+WARNING:django.request:Not Found: /
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+WARNING:django.request:Not Found: /
+WARNING:django.request:Not Found: /
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+WARNING:django.request:Not Found: /api/Weather/'USC00110072/
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+WARNING:django.request:Not Found: /Weather
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+WARNING:django.request:Not Found: /WeatherStation
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+ERROR:django.request:Internal Server Error: /Station/USC00110072
+Traceback (most recent call last):
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py", line 28, in get
+    response = {'Success': self.response}
+AttributeError: 'WeatherStation' object has no attribute 'response'
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /Station/USC00110072
+Traceback (most recent call last):
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py", line 29, in get
+    return Response(response)
+NameError: name 'Response' is not defined
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /Station/USC00110072
+Traceback (most recent call last):
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\renderers.py", line 680, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\renderers.py", line 413, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 439, in _iterencode
+    yield from _iterencode(o, _current_indent_level)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 429, in _iterencode
+    yield from _iterencode_list(o, _current_indent_level)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Weather is not JSON serializable
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /Station/USC00110072
+Traceback (most recent call last):
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py", line 31, in get
+    return Response(response.json())
+AttributeError: 'QuerySet' object has no attribute 'json'
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+ERROR:django.request:Internal Server Error: /Station/USC00110072
+Traceback (most recent call last):
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py", line 31, in get
+    return Response(response.json())
+AttributeError: 'QuerySet' object has no attribute 'json'
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+WARNING:django.request:Not Found: /api/Weather/station_id=USC00110072/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+WARNING:django.request:Not Found: /api/Weather/station/USC00110072/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+WARNING:django.request:Not Found: /station/USC00110072/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+WARNING:django.request:Not Found: /Weatherstation/USC00110072/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+WARNING:django.request:Not Found: /station/USC00110072/
+WARNING:django.request:Not Found: /station/
+WARNING:django.request:Not Found: /Station/USC00110072
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+WARNING:django.request:Not Found: /Station/USC00110072
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\mysite\settings.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+WARNING:django.request:Not Found: /station/USC00110072/
+WARNING:django.request:Not Found: /station/USC00110072/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+WARNING:django.request:Not Found: /api/Weather/station_id/USC00110072/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\models_data.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\models_data.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\models_data.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\models_data.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\models_data.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\models_data.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\models_data.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\models_data.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\models_data.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\models_data.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\models_data.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\models_data.py changed, reloading.
+ERROR:django.request:Internal Server Error: /api/weather/stats
+Traceback (most recent call last):
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\renderers.py", line 724, in render
+    context = self.get_context(data, accepted_media_type, renderer_context)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\renderers.py", line 680, in get_context
+    'content': self.get_content(renderer, data, accepted_media_type, renderer_context),
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\renderers.py", line 413, in get_content
+    content = renderer.render(data, accepted_media_type, renderer_context)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\renderers.py", line 100, in render
+    ret = json.dumps(
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\utils\json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python310\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "C:\Users\dell\Desktop\java\Weather_data\env\lib\site-packages\rest_framework\utils\encoders.py", line 67, in default
+    return super().default(obj)
+  File "C:\Users\dell\AppData\Local\Programs\Python\Python310\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ModelBase is not JSON serializable
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\models_data.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+WARNING:django.request:Not Found: /weather/stats/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+WARNING:django.request:Not Found: /weather/stats/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+WARNING:django.request:Not Found: /weather/stats/
+WARNING:django.request:Not Found: /weather/stats/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+WARNING:django.request:Not Found: /weather/stats/
+WARNING:django.request:Not Found: /weather/stats/
+WARNING:django.request:Not Found: /weather/stats/
+WARNING:django.request:Not Found: /weather/stats/
+WARNING:django.request:Not Found: /weather/stats/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+WARNING:django.request:Not Found: /weather/stats/
+WARNING:django.request:Not Found: /weather/stats/
+WARNING:django.request:Not Found: /weather/stats/
+WARNING:django.request:Not Found: /weather/stats/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\models_data.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\models_data.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\models_data.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+WARNING:django.request:Not Found: /
+WARNING:django.request:Not Found: /api/Weather/stats/
+WARNING:django.request:Not Found: /api/weather/stats/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\models_data.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\models_data.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\models_data.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\models_data.py changed, reloading.
+WARNING:django.request:Not Found: /
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\admin.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\models_data.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\urls.py changed, reloading.
+WARNING:django.request:Not Found: /
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+WARNING:django.request:Not Found: /api/Weather/USC00110072/
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
+INFO:django.utils.autoreload:C:\Users\dell\Desktop\java\Weather_data\mysite\site_app\views.py changed, reloading.
